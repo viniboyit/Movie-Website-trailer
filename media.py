@@ -2,7 +2,8 @@ import webbrowser
 
 class Movie:
     """ Create a data structure to store your favorite movies,
-    including movie title, storyline, box art URL and a YouTube link to the movie trailer.
+    including movie title, storyline, box art URL and a YouTube link to the
+    movie trailer.
     """
     def __init__(self, movie_title, movie_storyline, poster_image, trailer):
         self.title = movie_title # Title of the movie
